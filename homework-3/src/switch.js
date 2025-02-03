@@ -1,6 +1,6 @@
 // Створити файл switch.js, у якому переписати розгалужену конструкцію if-else if-else з файлу decision-tree.js із застосування switch.
 
-const team = 'Barselona'
+const team = 'Barselona';
 switch (team) {
     case 'Dynamo' : {
         console.log ('hello from Kyiv');
@@ -8,7 +8,7 @@ switch (team) {
     }
     case 'Shakhtar' : {
         console.log ('hello from Donetsk');
-        break;    
+        break;
     }
     case 'Karpaty' : {
         console.log ('hello from Lvov');
@@ -16,12 +16,12 @@ switch (team) {
     }
     default : {
         console.log ('hello from Barsa');
-    }    
+    }
 }
 
 console.log ('--------------------------------------------------------------------------------------------');
 
-const team1 = 'Barselona'
+const team1 = 'Barselona';
 switch (team1) {
     case 'Dynamo' : {
         console.log ('hello from Kyiv');
@@ -29,7 +29,7 @@ switch (team1) {
     }
     case 'Shakhtar' : {
         console.log ('hello from Donetsk');
-        break;    
+        break;
     }
     case 'Barselona' : {
         console.log ('ello here Lvov, no Barselona');
@@ -37,5 +37,5 @@ switch (team1) {
     }
     default : {
         console.log ('hello from Barsa');
-    }    
+    }
 }
